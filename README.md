@@ -3,7 +3,7 @@ Reskill Americans Phase 3 Group Project
 
 ****************
 
-A guide on how to use the repo
+A guide on how to use the repo.
 Team Contact: @cbojo5
 
 Before you push your code to the repository, please make sure you pull from the main repository (), so that the changes that have been made can be reflected on your local machine. To avoid merge conflicts, use the git command line
