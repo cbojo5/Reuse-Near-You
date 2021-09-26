@@ -26,7 +26,7 @@ This process here should be able to guide you on how to contribute effectively t
         
     * Make your main repo the remote upstream 
         ```
-            git remote add upstream https://github.com/reskillamericans/Tour-Info-Group-FE.git
+            git remote add upstream https://github.com/cbojo5/Reuse-Near-You.git
         ```
     * swich to your branch 
 
