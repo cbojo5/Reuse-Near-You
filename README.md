@@ -62,6 +62,6 @@ This process here should be able to guide you on how to contribute effectively t
         ```
     Make your Pull request from that branch of your repo to the branch of this repo and wait for it to be merged.
 
-Your PR shouldhave a screenshot of the output to enable faster code review. 
+Your PR should have a screenshot of the output to enable faster code review. 
 
 Your branch name should be the name of the page you are working on. For example, if I am working on the signin page, my branch should be called "signin" and so on for others
