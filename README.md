@@ -37,7 +37,7 @@ This process here should be able to guide you on how to contribute effectively t
 
         ```
         signin.html
-        sigin.css (This should be placed in the css folder which is inside the assets folder on the repo)
+        signin.css (This should be placed in the css folder which is inside the assets folder on the repo)
         ```
 
     After changes have been made do:
