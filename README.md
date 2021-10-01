@@ -7,7 +7,8 @@ A guide on how to use the repo.
 Team Contact: @cbojo5
 
 A guide on how to use the repo when starting out
-Fork the Parent Repo
+
+    1. Fork the Parent Repo
 
     2. Clone your preferred branch from your Fork
    ..... For FrontEnd Branch
