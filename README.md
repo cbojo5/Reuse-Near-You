@@ -9,9 +9,9 @@ Team Contact: @cbojo5
     1. Fork the Parent Repo
 
     2. Clone your preferred branch from your Fork
-   ..... For FrontEnd Branch
+        For FrontEnd Branch
           git clone -b 'FrontEnd' URLofFork
-   ..... For BackEnd Branch
+        For BackEnd Branch
           git clone -b 'BackEnd' URLofFork
 
     3. Now that the branch is cloned to your machine, change to the directory
@@ -39,7 +39,8 @@ Team Contact: @cbojo5
    
     7. Your Teamlead or designated person can merge after checking.
 
-    8. Your main branch can be the combination of finished work on backend and frontend (i.e Backend person to consume the frontend and push to main) that will          be deployed to Heroku to go live.
+    8. Your main branch can be the combination of finished work on backend and frontend (i.e Backend person to consume the frontend and push to main) 
+       that will be deployed to Heroku to go live.
 
 
 
