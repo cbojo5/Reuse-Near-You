@@ -33,13 +33,15 @@ Team Contact: @cbojo5
         git add -A
         git commit -m "Adding so so so"
         git push origin nameOfTask
+        
+    6. Save your css files to the assets/css folder. Save and utilize images pulled from the Figma design page into the assets/img folder. 
 
-    6. Create a pull request on your fork on GitHub - your base is your branch (nameOfTask) and the head is either FrontEnd or BackEnd Branch of the main repo.
+    7. Create a pull request on your fork on GitHub - your base is your branch (nameOfTask) and the head is either FrontEnd or BackEnd Branch of the main repo.
         Your PR should have a screenshot of the output to enable faster code review. 
    
-    7. Your Teamlead or designated person can merge after checking.
+    8. Your Teamlead or designated person can merge after checking.
 
-    8. Your main branch can be the combination of finished work on backend and frontend (i.e Backend person to consume the frontend and push to main) 
+    9. Your main branch can be the combination of finished work on backend and frontend (i.e Backend person to consume the frontend and push to main) 
        that will be deployed to Heroku to go live.
 
 
