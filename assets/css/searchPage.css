@@ -53,9 +53,12 @@ body {
 
 .list a:hover {
   background-color: var(--yelloworange);
-  cursor: grab;
+  cursor: pointer;
 }
 
+#findacenter{
+  color: #1c8a20;
+}
 /*--------- BODY------ */
 .banner {
   display: flex;
@@ -79,7 +82,7 @@ body {
 
 .btn:hover {
   background-color: var(--yelloworange);
-  cursor: grab;
+  cursor: pointer;
 }
 
 .txt h6 {
@@ -137,7 +140,7 @@ input[type="text"] {
 
 .btn_2:hover {
   background-color: var(--yelloworange);
-  cursor: grab;
+  cursor: pointer;
 }
 
 .disclaimer p {

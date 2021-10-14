@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Brawler&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #000000;
+  --blue: #1da1f2;
+  --yelloworange: #ffae42;
+}
+
+body {
+  font-family: "Brawler", serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+/*-------------HEADER-------------*/
+
+.menu {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.menu img {
+  width: 120px;
+  padding: 1rem 0 0 0;
+}
+
+.menu a {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: normal;
+  padding-right: 30px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-basis: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  position: relative;
+  display: flex;
+}
+
+.list a:hover {
+    background-color: var(--yelloworange);
+    cursor: pointer;
+  }
+
+  #contactgreen{
+    color: #1C8A20;
+    
+
+  }
+
+/*--------- BODY------ */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/*------- HEADER IMAGE-------*/
+
+.contactusbox{
+    background-color:#EBF19E;
+    width:120px;
+    height:24px;
+    text-align: center;
+    color:#1da1f2;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: -20px;
+    left: 66px;
+    position:absolute;
+
+}
+/* ----------CENTER CONTENT------------ */
+.contactbox{
+    display:flex;
+    margin-top: 50px;  
+    margin-left:15px; 
+}
+
+.contactparagraph{
+width: 300px;
+height: 137px;
+left: 35px;
+margin-top: 30px;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: justify;
+color: #000000;
+}
+
+
+/* ---------FORM--------*/
+.contactuseheadertext{
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-left:10px;
+  margin-bottom:5px;
+}
+
+.formbox{
+background-color:yellowgreen ;
+color:white;
+width: 638px;
+height: 524px;
+top: 407px;
+margin-left:50px;
+line-height: 30px;
+font-size: 12px;
+margin-bottom: 30px;
+}
+
+.totalformbox{
+    display:flex;
+    
+}
+
+input{
+    border-style: hidden;
+    width:96%;
+    height:5%;
+    
+}
+.leftsideform{
+    margin-left:10px;
+}
+
+
+#name{
+    width:300px;
+}
+
+#qbox{
+    height:140px;
+}
+#add1{
+    width:300px;
+}
+
+#city{
+    width:300px;
+}
+
+#zip{
+    width:300px;
+}
+
+#phone{
+    width:300px;
+}
+
+
+.subbutton{
+    margin-left:660px;
+    width: 48px;
+    height: 15px;
+    font-family: "Brawler";
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #1DA1F2;
+    background-color: #EBF19E;
+    border-style: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 72px;
+    height: 19px;
+    cursor:pointer;
+    
+}
+
+
+/* ----------FOOTER------------ */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footertxt h6 {
+  color: var(--white);
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+.social_media_icons {
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-around;
+  padding-right: 1.5em;
+}
+
+/*-------RESPONSIVNESS------------*/
+
+@media only screen and (max-width: 600px) {
+
+    .denimbox{
+        width:570px;
+    }
+    .contactbox{
+        display:flex;
+        flex-direction: column;
+        margin-top: 50px;  
+        margin-left:15px; 
+    }
+    
+    .contactparagraph{
+    width: 425px;
+    height: 137px;
+    margin-top: 1px;
+    margin-left:40px;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+    }
+
+    .formbox{
+        background-color:yellowgreen ;
+        color:white;
+        width: 438px;
+        height: 554px;
+        top: 407px;
+        margin-left:30px;
+        line-height: 30px;
+        font-size: 10.5px;
+        margin-bottom: 30px;
+        }
+        
+        .totalformbox{
+        display:flex;
+                
+        }
+
+        input{
+            border-style: hidden;
+            width:65%;
+            height:5%;
+            
+        }
+        .leftsideform{
+            margin-left:17px;
+        }
+        
+        .rightsideform{
+            margin-right:27px;
+        }
+
+        #name{
+            width:160px;
+        }
+        
+        #qbox{
+            height:140px;
+            width:240px;
+        }
+        #add1{
+            width:160px;
+        }
+        
+        #city{
+            width:160px;
+        }
+        
+        #zip{
+            width:160px;
+        }
+        
+        #phone{
+            width:160px;
+        }
+        
+        
+        .subbutton{
+            margin-left:200px;
+            margin-top:25px;
+            margin-bottom:10px;
+            width: 48px;
+            height: 15px;
+            font-family: "Brawler";
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            color: #1DA1F2;
+            background-color: #EBF19E;
+            border-style: none;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 72px;
+            height: 19px;
+            cursor:pointer;
+            
+        }
+
+        footer {
+            flex-direction: column;
+            text-align: center;
+            margin-top:20px;
+          }
+  /*---------HEADER---------*/
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu a {
+    font-size: 3vw;
+  }
+
+  .menu img {
+    align-items: center;
+    width: 90px;
+    padding: 2rem 0 1.5rem 0;
+  }
+
+  .list a:hover {
+    background-color: var(--yelloworange);
+    cursor: grab;
+  }
+
+  /*-------- FOOTER ---------*/
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footertxt h2 {
+    font-size: 1rem;
+  }
+  .social_media_icons {
+    justify-content: center;
+    padding: 5px;
+    padding-top: 20px;
+  }
+}

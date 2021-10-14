@@ -79,7 +79,7 @@ body {
 
 .btns:hover {
   background-color: var(--yelloworange);
-  cursor: grab;
+  cursor: pointer;
 }
 
 .txt h6 {
@@ -137,7 +137,7 @@ input[type="text"] {
 
 .btn_2:hover {
   background-color: var(--yelloworange);
-  cursor: grab;
+  cursor: pointer;
 }
 
 .place_holder h1 {
