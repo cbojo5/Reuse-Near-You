@@ -348,7 +348,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #c8f70d;
-      top: -155px;
+      top: -230px;
     }
 
     .ding h3 {
@@ -359,7 +359,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #fff;
-      top: -135px;
+      top: -210px;
     }
 
     .btn1 {
@@ -372,7 +372,7 @@ footer {
       border-radius: 4px;
       color: #1da1f2;
       background: #ebf19e;
-      top: -110px;
+      top: -190px;
       height: 3vh;
     }
 
@@ -383,7 +383,7 @@ footer {
       padding-right: 0;
       margin: 0 auto;
       justify-content: center;
-      top: -95px;
+      top: -150px;
       color: var(--blue);
     }
 
@@ -425,7 +425,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #c8f70d;
-      top: -155px;
+      top: -230px;
     }
 
     .grow h3 {
@@ -436,7 +436,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #fff;
-      top: -135px;
+      top: -210px;
     }
 
     .btn3 {
@@ -449,7 +449,7 @@ footer {
       border-radius: 4px;
       color: #1da1f2;
       background: #ebf19e;
-      top: -100px;
+      top: -170px;
       height: 3vh;
     }
 
@@ -472,7 +472,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #c8f70d;
-      top: -150px;
+      top: -230px;
     }
 
     .know h3 {
@@ -483,7 +483,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #fff;
-      top: -135px;
+      top: -210px;
     }
 
     .btn4 {
@@ -496,7 +496,7 @@ footer {
       border-radius: 4px;
       color: #1da1f2;
       background: #ebf19e;
-      top: -100px;
+      top: -170px;
       height: 3vh;
     }
 
@@ -606,7 +606,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -160px;
+    top: -260px;
   }
 
   .ding h3 {
@@ -616,7 +616,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -140px;
+    top: -240px;
   }
 
   .btn1 {
@@ -625,11 +625,11 @@ footer {
     padding-left: 0;
     padding-right: 0;
     width: 15%;
-    margin-left: 25%;
+    margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
     background: #ebf19e;
-    top: -120px;
+    top: -220px;
   }
 
   .wrapper {
@@ -639,7 +639,7 @@ footer {
     padding-right: 0;
     margin: 0 auto;
     justify-content: center;
-    top: -100px;
+    top: -170px;
     color: var(--blue);
   }
 
@@ -679,7 +679,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -150px;
+    top: -250px;
   }
 
   .grow h3 {
@@ -689,7 +689,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -130px;
+    top: -230px;
   }
 
   .btn3 {
@@ -698,11 +698,11 @@ footer {
     padding-left: 0;
     padding-right: 0;
     width: 15%;
-    margin-left: 25%;
+    margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
     background: #ebf19e;
-    top: -110px;
+    top: -200px;
     height: 3vh;
   }
 
@@ -723,7 +723,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -150px;
+    top: -250px;
   }
 
   .know h3 {
@@ -733,7 +733,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -130px;
+    top: -230px;
   }
 
   .btn4 {
@@ -742,11 +742,11 @@ footer {
     padding-left: 0;
     padding-right: 0;
     width: 15%;
-    margin-left: 25%;
+    margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
     background: #ebf19e;
-    top: -100px;
+    top: -200px;
     height: 3vh;
   }
 

@@ -75,6 +75,7 @@ body {
   position: relative;
   top: -30px;
   left: 10%;
+  padding: 5px;
 }
 
 .btns:hover {
@@ -89,6 +90,10 @@ body {
   font-size: 14px;
 }
 
+.three {
+  height: 18vh;  
+}
+
 .banner_2 {
   display: flex;
   justify-content: center;
@@ -101,18 +106,20 @@ body {
 
 .banner_2_tittle h2 {
   position: relative;
-  top: -160px;
+  top: -190px;
   color: var(--blue);
   font-family: var(--font-family);
-  padding-right: 155px;
-  padding-left: 155px;
+  padding-right: 390px;
+  padding-left: 390px;
 }
 
 .input_box {
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
+  width: 50%;
+  margin: 0 auto;
   top: -140px;
-  padding-left: 260px;
-  padding-right: 260px;
 }
 
 input[type="text"] {
@@ -124,6 +131,7 @@ input[type="text"] {
   top: -130px;
   text-align: center;
   padding-top: 30px;
+  color: var(--blue);
 }
 
 .btn_2 {
@@ -140,9 +148,9 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.place_holder h1 {
-  font-size: 40px;
-  text-align: center;
+.place_holder {
+  display: flex;
+  justify-content: center;
 }
 
 /* ----------FOOTER------------ */
@@ -167,7 +175,54 @@ footer {
 
 /*-------RESPONSIVNESS------------*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+
+  /* -------BODY------------ */
+
+  .banner_2_tittle h2 {
+    position: relative;
+    top: -150px;
+    color: var(--blue);
+    font-family: var(--font-family);
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .input_box {
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+    margin: 0 auto;
+    top: -120px;
+  }
+
+  .place_holder img{
+    display: flex;
+    width: 90%;
+  }
+
+  /*-------- FOOTER ---------*/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .footertxt h5 {
+    padding-top: 75px;
+    color: var(--black);
+    font-size: 14px;
+  }
+  
+  .social_media_icons {
+    padding-top: 75px;
+    flex-direction: row;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   /*---------HEADER---------*/
 
   .menu {
@@ -184,15 +239,15 @@ footer {
   .menu img {
     align-items: center;
     width: 90px;
-    padding: 2rem 0 1.5rem 0;
+    padding: 2rem 0 1rem 0;
   }
 
   .list a:hover {
     background-color: var(--yelloworange);
-    cursor: grab;
+    cursor: pointer;
   }
 
-  /* -------BODY------------ */
+  /* ----------BODY--------- */
 
   .banner {
     display: flex;
@@ -204,7 +259,7 @@ footer {
     height: 14vh;
   }
 
-  .btns {
+  .btn {
     background-color: darkkhaki;
     border-radius: 4px;
     border-style: none;
@@ -215,9 +270,9 @@ footer {
     padding: 4px;
   }
 
-  .btns:hover {
+  .btn:hover {
     background-color: var(--yelloworange);
-    cursor: grab;
+    cursor: pointer;
   }
 
   .txt h6 {
@@ -237,25 +292,28 @@ footer {
 
   .banner_2_tittle h2 {
     position: relative;
-    top: -120px;
+    top: -145px;
     color: var(--blue);
     font-family: var(--font-family);
-    padding-right: 155px;
-    padding-left: 155px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
   }
 
   .input_box {
-    position: relative;
-    top: -100px;
-    padding-left: 70px;
-    padding-right: 70px;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+    margin: 0 auto;
+    top: -120px;
   }
 
   .note p {
     position: relative;
-    top: -130px;
+    top: -125px;
     text-align: center;
-    padding-top: 40px;
+    
   }
 
   .btn_2 {
@@ -269,7 +327,13 @@ footer {
 
   .btn_2:hover {
     background-color: var(--yelloworange);
-    cursor: grab;
+    cursor: pointer;
+  }
+
+  .place_holder img{
+    display: block;
+    width: 90%;
+    
   }
 
   /*-------- FOOTER ---------*/
