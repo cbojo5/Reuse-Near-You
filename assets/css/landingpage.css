@@ -72,7 +72,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
-  top: -190px;
+  top: -130px;
   font-size: 20px;
   text-align: center;
 }
@@ -81,7 +81,7 @@ body {
   position: relative;
   padding-left: 47%;
   padding-right: 0;
-  top: -170px;
+  top: -120px;
   color: #ffffff;
   font-size: 18px;
   font-weight: bolder;
@@ -94,7 +94,6 @@ body {
 
 .landing-2 img {
   position: relative;
-
   width: 75%;
 }
 
@@ -105,7 +104,7 @@ body {
   width: 60%;
   margin: 0 auto;
   color: #c8f70d;
-  top: -180px;
+  top: -120px;
 }
 
 .ding h3 {
@@ -115,7 +114,7 @@ body {
   width: 60%;
   margin: 0 auto;
   color: #fff;
-  top: -160px;
+  top: -110px;
 }
 
 .btn1 {
@@ -128,7 +127,7 @@ body {
   border-radius: 4px;
   color: #1da1f2;
   background: #ebf19e;
-  top: -140px;
+  top: -115px;
   height: 3vh;
 }
 
@@ -136,10 +135,9 @@ body {
   position: relative;
   display: flex;
   padding-left: 0;
-  padding-right: 0;
-  margin: 0 auto;
+  margin-left:-30px;
   justify-content: center;
-  top: -120px;
+  top: -90px;
   color: var(--blue);
 }
 
@@ -179,7 +177,7 @@ input[type="text"] {
   width: 60%;
   margin: 0 auto;
   color: #c8f70d;
-  top: -180px;
+  top: -120px;
 }
 
 .grow h3 {
@@ -189,7 +187,7 @@ input[type="text"] {
   width: 60%;
   margin: 0 auto;
   color: #fff;
-  top: -150px;
+  top: -110px;
 }
 
 .btn3 {
@@ -202,7 +200,7 @@ input[type="text"] {
   border-radius: 4px;
   color: #1da1f2;
   background: #ebf19e;
-  top: -120px;
+  top: -90px;
   height: 3vh;
 }
 
@@ -223,7 +221,7 @@ input[type="text"] {
   width: 60%;
   margin: 0 auto;
   color: #c8f70d;
-  top: -160px;
+  top: -110px;
 }
 
 .know h3 {
@@ -233,7 +231,7 @@ input[type="text"] {
   width: 60%;
   margin: 0 auto;
   color: #fff;
-  top: -130px;
+  top: -100px;
 }
 
 .btn4 {
@@ -246,7 +244,7 @@ input[type="text"] {
   border-radius: 4px;
   color: #1da1f2;
   background: #ebf19e;
-  top: -110px;
+  top: -85px;
   height: 3vh;
 }
 
@@ -315,7 +313,7 @@ footer {
       padding-left: 0;
       padding-right: 0;
       width: 100%;
-      top: -130px;
+      top: -90px;
       text-align: center;
     }
   
@@ -323,7 +321,7 @@ footer {
       position: relative;
       padding-left: 44%;
       padding-right: 0;
-      top: -120px;
+      top: -100px;
       color: #ffffff;
       font-size: 18px;
       font-weight: bolder;
@@ -348,7 +346,7 @@ footer {
       margin: 0 auto;
       text-align: center;
       color: #c8f70d;
-      top: -230px;
+      top: -200px;
     }
 
     .ding h3 {
@@ -606,7 +604,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -260px;
+    top: -185px;
   }
 
   .ding h3 {
@@ -616,7 +614,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -240px;
+    top: -170px;
   }
 
   .btn1 {
@@ -639,7 +637,7 @@ footer {
     padding-right: 0;
     margin: 0 auto;
     justify-content: center;
-    top: -170px;
+    top: -140px;
     color: var(--blue);
   }
 
@@ -679,7 +677,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -250px;
+    top: -200px;
   }
 
   .grow h3 {
@@ -689,7 +687,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -230px;
+    top: -180px;
   }
 
   .btn3 {
@@ -702,7 +700,7 @@ footer {
     border-radius: 4px;
     color: #1da1f2;
     background: #ebf19e;
-    top: -200px;
+    top: -160px;
     height: 3vh;
   }
 
@@ -723,7 +721,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #c8f70d;
-    top: -250px;
+    top: -190px;
   }
 
   .know h3 {
@@ -733,7 +731,7 @@ footer {
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    top: -230px;
+    top: -180px;
   }
 
   .btn4 {
@@ -746,7 +744,7 @@ footer {
     border-radius: 4px;
     color: #1da1f2;
     background: #ebf19e;
-    top: -200px;
+    top: -140px;
     height: 3vh;
   }
 

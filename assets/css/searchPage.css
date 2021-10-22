@@ -56,6 +56,9 @@ body {
   cursor: pointer;
 }
 
+#findcentergreen{
+  color: #1C8A20;
+}
 /*--------- BODY------ */
 .banner {
   display: flex;

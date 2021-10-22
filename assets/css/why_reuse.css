@@ -53,6 +53,11 @@ body {
   background-color: var(--yelloworange);
 }
 
+#whyreusegreen{
+  color: #1C8A20;
+}
+
+
 /*--------- BODY------ */
 .reuse-1 {
   display: flex;

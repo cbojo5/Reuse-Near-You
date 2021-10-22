@@ -54,7 +54,10 @@ body {
 .list a:hover {
     background-color: var(--yelloworange);
   }
-
+  
+  #findcentergreen{
+    color: #1C8A20;
+  }
 /*--------- BODY------ */
 
 .banner {
