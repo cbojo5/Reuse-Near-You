@@ -90,7 +90,7 @@ body {
   padding-top: 20px;
   padding-bottom: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .three {
@@ -114,6 +114,7 @@ body {
   font-family: var(--font-family);
   padding-right: 390px;
   padding-left: 390px;
+  font-size: 1px;
 }
 
 .input_box {
@@ -135,6 +136,7 @@ input[type="text"] {
   text-align: center;
   padding-top: 30px;
   color: var(--blue);
+  font-size: 10px;
 }
 
 .btn_2 {
@@ -184,24 +186,43 @@ footer {
 
   .banner_2_tittle h2 {
     position: relative;
-    top: -150px;
+    top: -190px;
     color: var(--blue);
     font-family: var(--font-family);
     padding-right: 0px;
     padding-left: 0px;
     text-align: center;
+    font-size: 12.5px;
   }
   .input_box {
     padding-left: 0;
     padding-right: 0;
     width: 50%;
     margin: 0 auto;
-    top: -120px;
+    top: -100px;
   }
 
   .place_holder img{
     display: flex;
     width: 90%;
+  }
+  .disclaimer p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 230px;
+    padding-left: 130px;
+    text-align: center;
+    font-size: 5px;
+    width:50%;
+  }
+  .note p {
+    position: relative;
+    top: -115px;
+    text-align: center;
+    padding-top: 30px;
+    color: var(--blue);
+    font-size: 7px;
+    
   }
 
   /*-------- FOOTER ---------*/
@@ -280,7 +301,7 @@ footer {
 
   .txt h6 {
     text-align: center;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .banner_2 {
@@ -301,6 +322,7 @@ footer {
     padding-right: 0px;
     padding-left: 0px;
     text-align: center;
+    font-size: 10px;
   }
 
   .input_box {
@@ -316,6 +338,7 @@ footer {
     position: relative;
     top: -125px;
     text-align: center;
+    font-size: 6px;
     
   }
 
