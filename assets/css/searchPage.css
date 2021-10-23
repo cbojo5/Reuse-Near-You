@@ -270,6 +270,7 @@ footer {
   .banner_2 {
     display: flex;
     justify-content: center;
+  
   }
 
   .banner_2 img {
@@ -279,7 +280,7 @@ footer {
 
   .banner_2_tittle h2 {
     position: relative;
-    top: -145px;
+    top: -155px;
     color: var(--blue);
     font-family: var(--font-family);
     padding-right: 0px;
