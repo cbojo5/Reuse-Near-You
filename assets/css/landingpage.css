@@ -594,7 +594,11 @@ footer {
   }
 
   .landing-2 img {
+    display:flex;
+    justify-content: center;
     width: 75%;
+    opacity: 0.2;
+    
   }
 
   .dote h2 {
@@ -603,7 +607,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #c8f70d;
+    color: rgb(3, 68, 3);
     top: -175px;
   }
 
@@ -613,7 +617,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #fff;
+    color: rgb(13, 158, 13);
     top: -170px;
   }
 
@@ -622,11 +626,12 @@ footer {
     border-style: none;
     padding-left: 0;
     padding-right: 0;
-    width: 15%;
+    width: 17%;
     margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
-    background: #ebf19e;
+    font-weight: bold;
+    background: #c8f70d;
     top: -220px;
   }
 
@@ -639,6 +644,7 @@ footer {
     justify-content: center;
     top: -140px;
     color: var(--blue);
+  
   }
 
   input[type="text"] {
@@ -646,18 +652,20 @@ footer {
   }
 
   .wrapper p {
-    background-color: #ebf19e;
+    background-color: #c8f70d;
+    font-weight: bold;
     padding: 5px;
     font-size: 13px;
     border-radius: 3px;
   }
 
   .btn2 {
-    background-color: #ebf19e;
+    background-color: #c8f70d;
     width: 40px;
     border-style: none;
     border-radius: 4px;
     color: var(--blue);
+    font-weight: bold;
   }
 
   .landing-3 {
@@ -666,8 +674,13 @@ footer {
   }
 
   .landing-3 img {
+    display:none;
+    display:flex;
+    opacity: 0.2;
+    background: repeating-linear-gradient( -45deg, #444cf7, #444cf7 5px, #0d0d7e 5px, #0d0d7e 25px );
     position: relative;
     width: 75%;
+    
   }
 
   .tips h2 {
@@ -676,7 +689,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #c8f70d;
+    color: rgb(3, 68, 3);
     top: -170px;
   }
 
@@ -686,7 +699,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #fff;
+    color: rgb(13, 158, 13);
     top: -165px;
   }
 
@@ -695,11 +708,12 @@ footer {
     border-style: none;
     padding-left: 0;
     padding-right: 0;
-    width: 15%;
+    width: 17%;
     margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
-    background: #ebf19e;
+    font-weight: bold;
+    background: #c8f70d;
     top: -150px;
     height: 3vh;
   }
@@ -712,6 +726,8 @@ footer {
   .landing-4 img {
     position: relative;
     width: 75%;
+    opacity: 0.2;
+    
   }
 
   .near h2 {
@@ -720,7 +736,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #c8f70d;
+    color: rgb(3, 68, 3);
     top: -180px;
   }
 
@@ -730,7 +746,7 @@ footer {
     padding-left: 0;
     width: 60%;
     margin: 0 auto;
-    color: #fff;
+    color: rgb(13, 158, 13);
     top: -170px;
   }
 
@@ -739,11 +755,12 @@ footer {
     border-style: none;
     padding-left: 0;
     padding-right: 0;
-    width: 15%;
+    width: 17%;
     margin-left: 42%;
     border-radius: 4px;
     color: #1da1f2;
-    background: #ebf19e;
+    background:#c8f70d;
+    font-weight: bold;
     top: -140px;
     height: 3vh;
   }
