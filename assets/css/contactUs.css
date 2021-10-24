@@ -127,7 +127,7 @@ color:white;
 width: 638px;
 height: 524px;
 top: 407px;
-margin-left:50px;
+margin-left:10px;
 line-height: 30px;
 font-size: 12px;
 margin-bottom: 30px;
@@ -226,14 +226,14 @@ footer {
         display:flex;
         flex-direction: column;
         margin-top: 50px;  
-        margin-left:15px; 
+        margin-left:12px; 
     }
     
     .contactparagraph{
     width: 350px;
     height: 137px;
     margin-top: 1px;
-    margin-left:40px;
+    margin-left:12px;
     font-size: 15px;
     line-height: 22px;
     display: flex;
@@ -248,7 +248,7 @@ footer {
         width: 405px;
         height: 554px;
         top: 407px;
-        margin-left:30px;
+        margin-left:10px;
         line-height: 30px;
         font-size: 10.5px;
         margin-bottom: 30px;
@@ -270,7 +270,7 @@ footer {
         }
         
         .rightsideform{
-            margin-right:27px;
+            margin-right:17px;
         }
 
         #name{
