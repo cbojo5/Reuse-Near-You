@@ -218,7 +218,9 @@ footer {
 @media only screen and (max-width: 600px) {
 
     .denimbox{
-        width:520px;
+      padding-left: 7px;
+      padding-right: 7px;
+
     }
     .contactbox{
         display:flex;
